@@ -6,7 +6,7 @@
 
 
 
-Skills:
+
 ![image](https://user-images.githubusercontent.com/75133219/222897435-1d47494a-a0ff-45e4-9b47-590f7ad1dc73.png)
 ![image](https://user-images.githubusercontent.com/75133219/222897443-be2e5069-10cb-494b-9921-162c797cbc29.png)
 ![image](https://user-images.githubusercontent.com/75133219/222897448-4b80b8c8-7860-43c5-a6e0-cb772c2757d8.png)
