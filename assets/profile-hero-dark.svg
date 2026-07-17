@@ -159,7 +159,7 @@
 
       <g mask="url(#terminalReveal)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
         <rect x="514" y="146" width="580" height="367" rx="16" fill="#0A0A0A" fill-opacity=".22" stroke="url(#accent)" stroke-opacity=".24"/>
-        <text x="532" y="176" font-size="14" font-weight="700" fill="#4ADE80">&gt; identity.loaded<span></span></text>
+        <text x="532" y="176" font-size="14" font-weight="700" fill="#FFFFFF">&gt; identity.loaded<span></span></text>
         <text x="532" y="204" font-size="13.3" font-weight="500" fill="#94A3B8" opacity="0">$ whoami<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.10s" fill="freeze"/></text>
         <text x="532" y="240" font-size="16.8" font-weight="700" fill="#F8FAFC" opacity="0">@vladasanadev // FULL STACK DEVELOPER<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.23s" fill="freeze"/></text>
         <text x="532" y="262" font-size="13.3" font-weight="500" fill="#22D3EE" opacity="0">──────────────────────────<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.36s" fill="freeze"/></text>
