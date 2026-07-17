@@ -3,14 +3,14 @@
   <desc id="desc">Animated dark mode GitHub profile hero with stippled portrait and ASCII terminal profile.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#030712"/>
-      <stop offset=".48" stop-color="#08111F"/>
-      <stop offset="1" stop-color="#030712"/>
+      <stop offset="0" stop-color="#050505"/>
+      <stop offset=".48" stop-color="#171717"/>
+      <stop offset="1" stop-color="#050505"/>
     </linearGradient>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0F172A" stop-opacity=".94"/>
-      <stop offset=".62" stop-color="#111827" stop-opacity=".74"/>
-      <stop offset="1" stop-color="#020617" stop-opacity=".86"/>
+      <stop offset="0" stop-color="#151515" stop-opacity=".96"/>
+      <stop offset=".62" stop-color="#202020" stop-opacity=".82"/>
+      <stop offset="1" stop-color="#0B0B0B" stop-opacity=".92"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#7C3AED">
@@ -30,20 +30,20 @@
       <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="7s" repeatCount="indefinite"/>
     </linearGradient>
     <radialGradient id="violetGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#7C3AED" stop-opacity=".34"/>
-      <stop offset="1" stop-color="#7C3AED" stop-opacity="0"/>
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="cyanGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#22D3EE" stop-opacity=".28"/>
-      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+      <stop offset="0" stop-color="#D4D4D4" stop-opacity=".09"/>
+      <stop offset="1" stop-color="#D4D4D4" stop-opacity="0"/>
     </radialGradient>
     <radialGradient id="emeraldGlow" cx="50%" cy="50%" r="50%">
-      <stop offset="0" stop-color="#10B981" stop-opacity=".22"/>
-      <stop offset="1" stop-color="#10B981" stop-opacity="0"/>
+      <stop offset="0" stop-color="#737373" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#737373" stop-opacity="0"/>
     </radialGradient>
     <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#000000" flood-opacity=".46"/>
-      <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#22D3EE" flood-opacity=".12"/>
+      <feDropShadow dx="0" dy="0" stdDeviation="12" flood-color="#FFFFFF" flood-opacity=".06"/>
     </filter>
     <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="3.8" result="blur"/>
@@ -126,7 +126,7 @@
 
     <g transform="translate(0 0)">
       <animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="6s" repeatCount="indefinite"/>
-      <rect x="64" y="76" width="114" height="28" rx="14" fill="#020617" stroke="#FFFFFF" stroke-opacity=".08"/>
+      <rect x="64" y="76" width="114" height="28" rx="14" fill="#0A0A0A" stroke="#FFFFFF" stroke-opacity=".08"/>
       <circle cx="84" cy="90" r="4" fill="#F87171"/>
       <circle cx="100" cy="90" r="4" fill="#FBBF24"/>
       <circle cx="116" cy="90" r="4" fill="#34D399"/>
@@ -151,29 +151,28 @@
     </g>
 
     <g>
-      <rect x="502" y="74" width="608" height="58" rx="18" fill="#020617" fill-opacity=".68" stroke="#FFFFFF" stroke-opacity=".08"/>
+      <rect x="502" y="74" width="608" height="58" rx="18" fill="#0A0A0A" fill-opacity=".68" stroke="#FFFFFF" stroke-opacity=".08"/>
       <circle cx="530" cy="103" r="5" fill="#F87171"/>
       <circle cx="550" cy="103" r="5" fill="#FBBF24"/>
       <circle cx="570" cy="103" r="5" fill="#34D399"/>
-      <text x="604" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#94A3B8">vlada@github:~/profile</text>
-      <text x="1038" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#22D3EE" opacity=".9">online</text>
+      <text x="604" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#94A3B8">@vlasanadevgithub</text>
 
       <g mask="url(#terminalReveal)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-        <rect x="514" y="146" width="580" height="367" rx="16" fill="#020617" fill-opacity=".22" stroke="url(#accent)" stroke-opacity=".24"/>
+        <rect x="514" y="146" width="580" height="367" rx="16" fill="#0A0A0A" fill-opacity=".22" stroke="url(#accent)" stroke-opacity=".24"/>
         <text x="532" y="176" font-size="14" font-weight="700" fill="url(#accent)">&gt; identity.loaded<span></span></text>
         <text x="532" y="204" font-size="13.3" font-weight="500" fill="#94A3B8" opacity="0">$ whoami<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.10s" fill="freeze"/></text>
-        <text x="532" y="224" font-size="20" font-weight="700" fill="#F8FAFC" opacity="0">VLADA // FRONTEND ENGINEER<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.23s" fill="freeze"/></text>
-        <text x="532" y="246" font-size="13.3" font-weight="500" fill="#22D3EE" opacity="0">──────────────────────────<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.36s" fill="freeze"/></text>
-        <text x="532" y="266" font-size="14" font-weight="700" fill="#94A3B8" opacity="0">[ PROFILE ]<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.49s" fill="freeze"/></text>
-        <text x="532" y="286" font-size="13.3" font-weight="500" fill="#F8FAFC" opacity="0">+ location  : remote / worldwide<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.62s" fill="freeze"/></text>
-        <text x="532" y="306" font-size="13.3" font-weight="500" fill="#F8FAFC" opacity="0">+ education : software engineering<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.75s" fill="freeze"/></text>
-        <text x="532" y="326" font-size="13.3" font-weight="500" fill="#F8FAFC" opacity="0">+ focus     : interfaces + AI systems<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.88s" fill="freeze"/></text>
-        <text x="532" y="346" font-size="13.3" font-weight="500" fill="#F8FAFC" opacity="0">+ portfolio : vladasana.dev<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.01s" fill="freeze"/></text>
-        <text x="532" y="366" font-size="13.3" font-weight="500" fill="#F8FAFC" opacity="0">+ contact   : github.com/vladasanadev<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.14s" fill="freeze"/></text>
-        <text x="532" y="394" font-size="14" font-weight="700" fill="#94A3B8" opacity="0">[ STACK ]<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.40s" fill="freeze"/></text>
-        <text x="532" y="414" font-size="13.3" font-weight="500" fill="#F8FAFC" opacity="0">{ React | Next.js | TypeScript | Node.js }<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.53s" fill="freeze"/></text>
-        <text x="532" y="434" font-size="13.3" font-weight="500" fill="#F8FAFC" opacity="0">{ Tailwind | Python | Docker | Postgres }<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.66s" fill="freeze"/></text>
-        <text x="532" y="462" font-size="14" font-weight="700" fill="#94A3B8" opacity="0">[ github ] [ linkedin ] [ x / twitter ] [ portfolio ]<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.92s" fill="freeze"/></text>
+        <text x="532" y="240" font-size="16.8" font-weight="700" fill="#F8FAFC" opacity="0">@vladasanadev // FULL STACK DEVELOPER<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.23s" fill="freeze"/></text>
+        <text x="532" y="262" font-size="13.3" font-weight="500" fill="#22D3EE" opacity="0">──────────────────────────<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.36s" fill="freeze"/></text>
+        <text x="532" y="282" font-size="14" font-weight="700" fill="#94A3B8" opacity="0">[ PROFILE ]<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.49s" fill="freeze"/></text>
+        <text x="532" y="302" font-size="13.3" font-weight="500" fill="#F8FAFC" opacity="0">+ location  : remote / worldwide<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.62s" fill="freeze"/></text>
+        <text x="532" y="322" font-size="13.3" font-weight="500" fill="#F8FAFC" opacity="0">+ education : software engineering<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.75s" fill="freeze"/></text>
+        <text x="532" y="342" font-size="13.3" font-weight="500" fill="#F8FAFC" opacity="0">+ focus     : interfaces + AI systems<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.88s" fill="freeze"/></text>
+        <text x="532" y="362" font-size="13.3" font-weight="500" fill="#F8FAFC" opacity="0">+ portfolio : vladasana.dev<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.01s" fill="freeze"/></text>
+        <text x="532" y="382" font-size="13.3" font-weight="500" fill="#F8FAFC" opacity="0">+ contact   : github.com/vladasanadev<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.14s" fill="freeze"/></text>
+        <text x="532" y="410" font-size="14" font-weight="700" fill="#94A3B8" opacity="0">[ STACK ]<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.40s" fill="freeze"/></text>
+        <text x="532" y="430" font-size="13.3" font-weight="500" fill="#F8FAFC" opacity="0">{ React | Next.js | TypeScript | Node.js }<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.53s" fill="freeze"/></text>
+        <text x="532" y="450" font-size="13.3" font-weight="500" fill="#F8FAFC" opacity="0">{ Tailwind | Python | Docker | Postgres }<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.66s" fill="freeze"/></text>
+        <text x="532" y="478" font-size="14" font-weight="700" fill="#94A3B8" opacity="0">[ github ] [ linkedin ] [ x / twitter ] [ portfolio ]<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.92s" fill="freeze"/></text>
         <rect x="532" y="496" width="8" height="14" fill="url(#accent)"><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect>
       </g>
     </g>

@@ -155,25 +155,24 @@
       <circle cx="530" cy="103" r="5" fill="#F87171"/>
       <circle cx="550" cy="103" r="5" fill="#FBBF24"/>
       <circle cx="570" cy="103" r="5" fill="#34D399"/>
-      <text x="604" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#475569">vlada@github:~/profile</text>
-      <text x="1038" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#06B6D4" opacity=".9">online</text>
+      <text x="604" y="108" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" fill="#475569">@vlasanadevgithub</text>
 
       <g mask="url(#terminalReveal)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
         <rect x="514" y="146" width="580" height="367" rx="16" fill="#F8FAFC" fill-opacity=".22" stroke="url(#accent)" stroke-opacity=".24"/>
         <text x="532" y="176" font-size="14" font-weight="700" fill="url(#accent)">&gt; identity.loaded<span></span></text>
         <text x="532" y="204" font-size="13.3" font-weight="500" fill="#475569" opacity="0">$ whoami<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.10s" fill="freeze"/></text>
-        <text x="532" y="224" font-size="20" font-weight="700" fill="#0F172A" opacity="0">VLADA // FRONTEND ENGINEER<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.23s" fill="freeze"/></text>
-        <text x="532" y="246" font-size="13.3" font-weight="500" fill="#06B6D4" opacity="0">──────────────────────────<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.36s" fill="freeze"/></text>
-        <text x="532" y="266" font-size="14" font-weight="700" fill="#475569" opacity="0">[ PROFILE ]<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.49s" fill="freeze"/></text>
-        <text x="532" y="286" font-size="13.3" font-weight="500" fill="#0F172A" opacity="0">+ location  : remote / worldwide<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.62s" fill="freeze"/></text>
-        <text x="532" y="306" font-size="13.3" font-weight="500" fill="#0F172A" opacity="0">+ education : software engineering<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.75s" fill="freeze"/></text>
-        <text x="532" y="326" font-size="13.3" font-weight="500" fill="#0F172A" opacity="0">+ focus     : interfaces + AI systems<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.88s" fill="freeze"/></text>
-        <text x="532" y="346" font-size="13.3" font-weight="500" fill="#0F172A" opacity="0">+ portfolio : vladasana.dev<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.01s" fill="freeze"/></text>
-        <text x="532" y="366" font-size="13.3" font-weight="500" fill="#0F172A" opacity="0">+ contact   : github.com/vladasanadev<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.14s" fill="freeze"/></text>
-        <text x="532" y="394" font-size="14" font-weight="700" fill="#475569" opacity="0">[ STACK ]<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.40s" fill="freeze"/></text>
-        <text x="532" y="414" font-size="13.3" font-weight="500" fill="#0F172A" opacity="0">{ React | Next.js | TypeScript | Node.js }<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.53s" fill="freeze"/></text>
-        <text x="532" y="434" font-size="13.3" font-weight="500" fill="#0F172A" opacity="0">{ Tailwind | Python | Docker | Postgres }<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.66s" fill="freeze"/></text>
-        <text x="532" y="462" font-size="14" font-weight="700" fill="#475569" opacity="0">[ github ] [ linkedin ] [ x / twitter ] [ portfolio ]<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.92s" fill="freeze"/></text>
+        <text x="532" y="240" font-size="16.8" font-weight="700" fill="#0F172A" opacity="0">@vladasanadev // FULL STACK DEVELOPER<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.23s" fill="freeze"/></text>
+        <text x="532" y="262" font-size="13.3" font-weight="500" fill="#06B6D4" opacity="0">──────────────────────────<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.36s" fill="freeze"/></text>
+        <text x="532" y="282" font-size="14" font-weight="700" fill="#475569" opacity="0">[ PROFILE ]<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.49s" fill="freeze"/></text>
+        <text x="532" y="302" font-size="13.3" font-weight="500" fill="#0F172A" opacity="0">+ location  : remote / worldwide<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.62s" fill="freeze"/></text>
+        <text x="532" y="322" font-size="13.3" font-weight="500" fill="#0F172A" opacity="0">+ education : software engineering<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.75s" fill="freeze"/></text>
+        <text x="532" y="342" font-size="13.3" font-weight="500" fill="#0F172A" opacity="0">+ focus     : interfaces + AI systems<animate attributeName="opacity" values="0;1" dur=".32s" begin="1.88s" fill="freeze"/></text>
+        <text x="532" y="362" font-size="13.3" font-weight="500" fill="#0F172A" opacity="0">+ portfolio : vladasana.dev<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.01s" fill="freeze"/></text>
+        <text x="532" y="382" font-size="13.3" font-weight="500" fill="#0F172A" opacity="0">+ contact   : github.com/vladasanadev<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.14s" fill="freeze"/></text>
+        <text x="532" y="410" font-size="14" font-weight="700" fill="#475569" opacity="0">[ STACK ]<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.40s" fill="freeze"/></text>
+        <text x="532" y="430" font-size="13.3" font-weight="500" fill="#0F172A" opacity="0">{ React | Next.js | TypeScript | Node.js }<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.53s" fill="freeze"/></text>
+        <text x="532" y="450" font-size="13.3" font-weight="500" fill="#0F172A" opacity="0">{ Tailwind | Python | Docker | Postgres }<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.66s" fill="freeze"/></text>
+        <text x="532" y="478" font-size="14" font-weight="700" fill="#475569" opacity="0">[ github ] [ linkedin ] [ x / twitter ] [ portfolio ]<animate attributeName="opacity" values="0;1" dur=".32s" begin="2.92s" fill="freeze"/></text>
         <rect x="532" y="496" width="8" height="14" fill="url(#accent)"><animate attributeName="opacity" values="1;0;1" dur=".8s" repeatCount="indefinite"/></rect>
       </g>
     </g>
